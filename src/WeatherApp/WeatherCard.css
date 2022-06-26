@@ -1,0 +1,8 @@
+.dataCard {
+    border: 1px solid #757575;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 400px;
+}

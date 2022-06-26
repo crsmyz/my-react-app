@@ -1,0 +1,44 @@
+.appWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.appHeader {
+    margin: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.weatherForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weatherInput {
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+}
+
+.weatherButton {
+    margin: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-style: none;
+    background-color: rgb(0, 108, 196);
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.weatherButton:active {
+    background-color: rgba(0, 108, 196, 0.5);
+}
+
+.weatherButton:disabled {
+    background-color: #bbbbbb;
+}

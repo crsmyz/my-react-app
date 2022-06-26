@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 1rem;
 }
 
 .App-logo {
@@ -35,4 +36,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cardiB {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #282c34;
 }
