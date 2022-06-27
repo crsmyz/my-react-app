@@ -42,3 +42,7 @@
 .weatherButton:disabled {
     background-color: #bbbbbb;
 }
+
+.todaysForecast {
+    box-shadow: 5px #006eff;
+}

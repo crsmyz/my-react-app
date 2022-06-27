@@ -6,12 +6,11 @@ const useGetFetchData = (apiEndpoint) => {
     const [apiError, setApiError] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
 
-    console.log('rendering bitch!!!')
+    console.log('rendering');
 
     const onClickFetchData = () => {
         fetchData(apiEndpoint, setResponse, setApiError, setIsLoading);
     }
-
     return {response, apiError, isLoading, onClickFetchData};
 }
 
